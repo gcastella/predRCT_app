@@ -13,6 +13,7 @@ library(devtools)
 install_github("gcastella/predRCT")
 library(predRCT)
 library(MASS)
+library(dplyr)
 
 # Define UI for application that draws a histogram
 shinyUI(navbarPage("predRCT",

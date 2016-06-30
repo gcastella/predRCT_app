@@ -13,6 +13,7 @@ library(devtools)
 install_github("gcastella/predRCT", force = TRUE)
 library(predRCT)
 library(MASS)
+library(dplyr)
 
 # Define server logic required to draw a histogram
 shinyServer(function(input, output) {
